@@ -1,20 +1,18 @@
-.song-container {
-  height: 60vh;
+.songs-container {
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   img {
     width: 15%;
     border-radius: 50%;
   }
   h2 {
-    padding: 3rem 1rem 1rem 1rem;
-    text-transform: capitalize;
+    padding: 2rem 1rem 1rem 1rem;
+    font-size: 2rem;
   }
   h3 {
-    font-size: 1rem;
-    text-transform: capitalize;
+    font-size: 1.2rem;
   }
 }

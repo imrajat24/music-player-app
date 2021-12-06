@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+@import './components/Player/player';
+@import './components/Song/song';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(54, 54, 54);
+}
